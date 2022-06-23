@@ -1,0 +1,26 @@
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 67px;
+    font-weight: 400;
+  }
+}
+
+.btn-new-task {
+
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    text-align: right;
+    
+    background-color: #fdd947;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+}

@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+
+ @import 'pages/index';
+
+ body {
+   background-color: #dee7ef;
+   color: #2A2F3D;
+ }
+
+ h1 {
+   color: #E84A5F;
+ }
+
+ a {
+  font-size: 28px;
+  color: #474747;
+  text-decoration: none;
+ }
