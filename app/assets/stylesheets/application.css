@@ -25,8 +25,7 @@
    color: #E84A5F;
  }
 
- a {
-  font-size: 28px;
-  color: #474747;
-  text-decoration: none;
+ li {
+   list-style: none;
  }
+

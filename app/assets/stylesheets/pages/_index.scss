@@ -18,9 +18,34 @@
 
   a {
     text-align: right;
-    
+
     background-color: #fdd947;
     padding: 3px 5px;
     border-radius: 5px;
   }
+}
+
+.tasks-list h2 {
+  margin: 5px 0;
+}
+
+.tasks-list h2 a {
+  font-size: 32px;
+  color: #474747;
+  text-decoration: none;
+  line-height: .7;
+}
+
+.details-box {
+  // display: none;
+  background-color: whitesmoke;
+  border: solid #b5b3b3 2px;
+  box-shadow: 2px 2px 2px;
+  border-radius: 5px;
+  margin: 5px 0 30px;
+}
+
+.details-box p {
+  font-size: 16px;
+  margin-left: 10px;
 }
