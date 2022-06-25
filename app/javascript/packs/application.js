@@ -9,3 +9,7 @@ import "channels"
 
 Rails.start()
 Turbolinks.start()
+
+
+
+import { opendeatils } from "./details.js"
