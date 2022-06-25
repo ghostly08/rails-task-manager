@@ -26,7 +26,7 @@
 }
 
 .tasks-list h2 {
-  margin: 5px 0;
+  margin: 9px 0;
 }
 
 .tasks-list h2 a {
@@ -37,12 +37,20 @@
 }
 
 .details-box {
-  // display: none;
+  display: none;
   background-color: whitesmoke;
   border: solid #b5b3b3 2px;
   box-shadow: 2px 2px 2px;
   border-radius: 5px;
   margin: 5px 0 30px;
+}
+
+.details-box.open {
+  display: block;
+}
+
+.details-box.close {
+  display: none;
 }
 
 .details-box p {
