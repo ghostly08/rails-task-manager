@@ -6,11 +6,11 @@
       <%= f.label :completed %>
       <%= f.check_box :completed %>
     <% end  %>
+    <h5 class="btn-edit-task"><%= link_to "Edit Task", go_edit_path %><h5>
     <h4><%= @task.details %></h4>
   </div>
 
   <div class="links-show">
     <%= link_to "Back to list", tasks_path %>
-    <h5 class="btn-new-task"><%= link_to "Edit Task", go_edit_path %><h5>
   </div>
 </div>
