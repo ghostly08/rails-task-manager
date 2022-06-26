@@ -6,9 +6,11 @@
 
     <% @tasks.each do |task| %>
       <div class="tasks-list">
-        <h2 class="task-title"><%= task.title %><h2>
-        <div id="details" class="details-box">
-          <p><%= task.details %></p>
+        <h2 class="task-title">
+          <%= link_to task.title, task_path(task) %>
+        <h2>
+        <%# <div id="details" class="details-box">
+          <p><%= task.details %>
         </div>
       </div>
     <%end%>
