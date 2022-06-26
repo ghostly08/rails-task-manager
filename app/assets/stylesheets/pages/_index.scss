@@ -9,15 +9,14 @@
   h1 {
     font-size: 78px;
     font-weight: 600;
-    color: #e86b22;
+    color: #65768e;
   }
 }
 
 
 .tasks-list {
-  background-color: #ec7f40;
+  // background-color: #ec7f40;
   margin-bottom: 24px;
-  border: solid #474747 1px;
   border-radius: 10px;
   box-shadow: 2px 2px 4px;
 
@@ -29,16 +28,26 @@
 }
 
 .tasks-list h2 {
+  display: flex;
+  justify-content: space-between;
   margin: 9px 0;
 }
 
 .tasks-list h2 a {
   font-size: 32px;
-  font-weight: 200;
-  color: whitesmoke;
+  font-weight: 500;
+  color: #65768e;
   text-decoration: none;
-  line-height: .7;
+  line-height: 1;
   margin-left: 15px;
+}
+
+.status-color {
+  width: 37px;
+  height: 27px;
+  background-color: #e86b22;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 .details-box {
