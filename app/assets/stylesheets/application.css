@@ -16,10 +16,14 @@
 
  @import 'pages/index';
 
+ * {
+  font-family: 'Manrope', sans-serif;
+ }
+
  body {
    background-color: whitesmoke;
    color: #2A2F3D;
-   
+
  }
 
  h1 {
