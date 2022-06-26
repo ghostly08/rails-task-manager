@@ -5,6 +5,7 @@
   width: 92%;
   margin: 0 auto;
 
+
   h1 {
     font-size: 67px;
     font-weight: 400;
@@ -23,6 +24,14 @@
     padding: 3px 5px;
     border-radius: 5px;
   }
+}
+
+.tasks-list {
+  margin-bottom: 24px;
+  border: solid #474747 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px;
+
 }
 
 .tasks-list h2 {
