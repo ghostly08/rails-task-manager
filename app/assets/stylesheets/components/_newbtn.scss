@@ -1,0 +1,16 @@
+.btn-new-task {
+
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    font-weight: 700;
+    text-align: right;
+    text-decoration: none;
+    background-color: #d2eb7a;
+    padding: 3px 5px;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 2px 2px 3px;
+  }
+}
