@@ -27,11 +27,17 @@
 }
 
 .tasks-list {
+  background-color: #ec7f40;
   margin-bottom: 24px;
   border: solid #474747 1px;
   border-radius: 10px;
   box-shadow: 2px 2px 4px;
 
+}
+
+.tasks-list:hover {
+  background-color: #e86b22;
+  box-shadow: 4px 4px 6px;
 }
 
 .tasks-list h2 {
@@ -40,9 +46,10 @@
 
 .tasks-list h2 a {
   font-size: 32px;
-  color: #474747;
+  color: whitesmoke;
   text-decoration: none;
   line-height: .7;
+  margin-left: 15px;
 }
 
 .details-box {

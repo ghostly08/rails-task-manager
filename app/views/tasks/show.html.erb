@@ -1,4 +1,8 @@
 <h2><%= link_to "Edit Task", go_edit_path %><h2>
 
 <h1><%= @task.details %></h1>
+<%= form_for(@task) do |f| %>
+  <%= f.label :completed %>
+  <%= f.check_box :completed %>
+<% end  %>
 <%= link_to "Back to list", tasks_path %>
