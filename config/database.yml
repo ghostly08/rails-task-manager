@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: rails_task_manager_development
+  database: rails_task_list_development
   pool: 5
   host: localhost
   username: Steven
@@ -10,7 +10,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: rails_task_manager_test
+  database: rails_task_list_test
   pool: 5
   username: Steven
   password: postgres_password
@@ -20,3 +20,26 @@ staging:
 
 production:
   url: <%= ENV['DATABASE_URL'] %>
+
+
+
+# default: &default
+# # adapter: sqlite3 #old
+# adapter: postgresql
+# pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+# timeout: 5000
+
+# development:
+# <<: *default
+# # database: db/development.sqlite3 #old
+# database: flatiron_mod3_development
+
+# test:
+# <<: *default
+# # database: db/test.sqlite3 #old
+# database: flatiron_mod3_test
+
+# production:
+# <<: *default
+# # database: db/production.sqlite3 #old
+# database: flatiron_mod3_production
