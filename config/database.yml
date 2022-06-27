@@ -4,7 +4,7 @@ development:
   database: rails_task_list_development
   pool: 5
   host: localhost
-  username: Steven
+  username: ghostly08
   password: postgres_password
 
 test:
@@ -12,7 +12,7 @@ test:
   encoding: unicode
   database: rails_task_list_test
   pool: 5
-  username: Steven
+  username: ghostly08
   password: postgres_password
 
 staging:
