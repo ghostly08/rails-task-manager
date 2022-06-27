@@ -8,6 +8,16 @@
     <% end  %>
     <h5 class="btn-edit-task"><%= link_to "Edit Task", go_edit_path %><h5>
     <h4><%= @task.details %></h4>
+
+    <%= link_to "Delete #{@task.title}",
+            task_path(@task),
+            method: :delete,
+            data: { confirm: "Are you sure?" } %>
+
+    <a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="/tasks/1">
+
+    </a>
+    
   </div>
 
   <div class="links-show">
